@@ -17,32 +17,63 @@ a {
   margin: 0 auto;
 }
 
-.container h5{
-  text-align: center;
-}
-
-.Companytitle{
-  color: #00F;
-}
-
-.yellow{
-  color: #FF0;
-}
-
 .top-wrapper {
-  padding: 200px 0px 270px 0;
-  background-image: url(yun_14193.jpg);
+  padding: 180px 0 100px 0;
+  background-image: url(top.png);
   background-size: cover;
   color: white;
   text-align: center;
 }
 
 .top-wrapper h1 {
-  opacity: 1.0;
+  opacity: 0.7;
   font-size: 45px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
 }
 
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.btn-wrapper p {
+  margin-bottom: 20px;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
 
 header {
   height: 65px;
@@ -53,14 +84,6 @@ header {
   z-index: 10;
 }
 
-.heading h2{
-  font-weight: bold;
-}
-
-.companytitle{
-  color: #00F;
-}
-
 .logo {
   width: 124px;
   margin-top: 20px;
@@ -68,9 +91,6 @@ header {
 
 .header-left {
   float: left;
-  color: white;
-  font-weight: bold;
-  font-size: 42px;
 }
 
 .header-right {
@@ -103,7 +123,7 @@ header {
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #blue;
+  color: #5f5d60;
 }
 
 .heading h2 {
@@ -247,8 +267,5 @@ footer {
 
   .message-wrapper .btn {
     width: 100%;
-  }
-  .webs .webs2{
-    font-size: 25px;
   }
 }
