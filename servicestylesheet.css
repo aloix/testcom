@@ -58,9 +58,10 @@ h3{
 }
 
 .navigations a:hover {
-  border-bottom:4px solid rgba(50,50,150,0.9);
+  border-bottom:4px solid rgba(250,50,150,0.9);
   color:rgba(50,50,150,0.9);
 }
+
 
 .main {
   padding: 180px 0 100px 0;
@@ -131,6 +132,15 @@ h3{
   width:43%;
 }
 
+.service a{
+    display: block;
+  transition: all 0.3s;
+}
+
+.service a:hover {
+  background-color: rgb(210, 210, 210);
+}
+
 .service-description{
   margin:0;
     text-align: center;
@@ -155,7 +165,17 @@ h3{
 
 .other-service{
   height:auto;
+  width:150px
 
+}
+
+.other-service a{
+    display: block;
+  transition: all 0.3s;
+}
+
+.other-service a:hover {
+  background-color: rgb(210, 210, 210);
 }
 
 .other-service p{
@@ -204,3 +224,71 @@ footer p {
 .clear {
   clear: left;
 }
+
+@media all and (max-width: 1000px) {
+  .service {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .service-wrapper {
+    height: 990px;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .main h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .navigations {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .fa {
+    margin-right: 5px;
+  }
+
+  .main {
+    text-align: left;
+    width: 100%;
+  }
+
+  .main h1 {
+    font-size: 24px;
+  }
+
+  .main p {
+    font-size: 14px;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .other-service {
+    width: 100%;
+  }
+
+  .service-wrapper {
+    height: 1700px;
+  }
+
+  .message-wrapper .btn {
+    width: 100%;
+  }
+}　
