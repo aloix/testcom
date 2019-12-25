@@ -44,7 +44,7 @@ h3{
 
 .navigations {
   float: right;
-  margin-right: 50px;
+  margin-right: 5px;
 }
 
 
@@ -90,7 +90,7 @@ h3{
 
 
 .heading {
-  margin:40px 20px;
+  margin:3% 1%;
   color: #5f5d60;
   text-align: center;
   border-bottom:1px solid rgba(50,50,50,0.8);
@@ -99,7 +99,7 @@ h3{
 
 .description{
   width:40%;
-  padding-right: 30px;
+  padding-right: 3%;
   text-align: right;
   float: right;
 }
@@ -117,7 +117,7 @@ h3{
   height:auto;
   float:left;
   width:65%;
-  margin-right: 70px;
+  margin-right: 2%;
   border-right: 3px double rgba(150,150,150,0.8);
 }
 
@@ -127,8 +127,8 @@ h3{
 }
 
 .service{
-  margin-left: 50px;
-  padding-bottom: 35px;
+  margin-left: 7%;
+  padding-bottom: 3%;
   width:43%;
 }
 
@@ -137,9 +137,6 @@ h3{
   transition: all 0.3s;
 }
 
-.service a:hover {
-  background-color: rgb(210, 210, 210);
-}
 
 .service-description{
   margin:0;
@@ -160,7 +157,7 @@ h3{
 }
 
 .other-services h3{
-  margin:0 0 30px 0;
+  margin:0 0 10% 0;
 }
 
 .other-service{
@@ -180,23 +177,16 @@ h3{
 
 .other-service p{
   margin:0;
-  margin-bottom: 30px;
+  margin-bottom: 20%;
 }
 
 .other-service img{
-  width:140px;
-  height: 70px;
+  width:90%;
 }
 
-footer {
-  padding-top: 30px;
-  padding-bottom: 45px;
-  margin: 50px 100px;
-  border-top: 1px solid grey;
-}
 
 footer img {
-  width: 150px;
+  width: 25%;
 }
 
 .footer-logo {
@@ -214,18 +204,18 @@ footer p {
 
 .app-links{
   float: left;
-  margin-left: 200px;
+  margin-left: 15%;
 }
 
 .app-links a{
-  margin-left: 20px;
+  margin-left: 5%;
 }
 
 .clear {
   clear: left;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1500px) {
   .service {
     width: 50%;
     margin-bottom: 50px;
@@ -237,10 +227,15 @@ footer p {
 
   footer {
     text-align: center;
-  }
+
+      padding-top: 30px;
+      padding-bottom: 45px;
+      margin: 50px 100px;
+      border-top: 1px solid grey;
+
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 830px) {
   .main h1 {
     font-size: 32px;
   }
@@ -264,7 +259,7 @@ footer p {
   }
 
   .main {
-    text-align: left;
+
     width: 100%;
   }
 
@@ -288,7 +283,10 @@ footer p {
     height: 1700px;
   }
 
-  .message-wrapper .btn {
-    width: 100%;
+
+  footer {
+    padding-top: 30px;
+    padding-bottom: 45px;
+    border-top: 1px solid grey;
   }
 }　
